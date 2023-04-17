@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+    <script>
+      function displayTitle() {
+        var pageTitle = document.title;
+        document.getElementById("title").innerHTML = pageTitle;
+      }
+    </script>
+  </head>
+  <body>
+    <button onclick="displayTitle()">Show Page Title</button>
+    <div id="title"></div>
+  </body>
+</html>
